@@ -1,14 +1,12 @@
 import Layout from 'components/Layout'
 import type { NextPage } from 'next'
 
-import { user } from 'services/api'
-
-const Home: NextPage = () => {
+const Policies: NextPage = () => {
   return (
     <Layout>
-      <h1>{user.username}</h1>
+      <h1>Policies</h1>
     </Layout>
   )
 }
 
-export default Home
+export default Policies
