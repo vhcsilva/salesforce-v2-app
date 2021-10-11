@@ -7,14 +7,11 @@ import {
   Grid,
   Typography,
   useTheme,
-  Button,
-  TextField
+  Button
 } from '@mui/material'
 import type { NextPage } from 'next'
 
 import Layout from 'components/Layout'
-import Products from 'components/Products'
-import { STypography } from 'styles/orders.new'
 import Items from 'components/Items'
 
 const NewOrder: NextPage = () => {
@@ -96,7 +93,7 @@ const NewOrder: NextPage = () => {
         </Grid>
 
         <Grid item xs={12}>
-          <Card variant="outlined" sx={{ height: '180px' }}>
+          <Card variant="outlined" sx={{ minHeight: '300px' }}>
             <CardHeader
               title="Produtos"
               avatar={<FontAwesomeIcon icon="list" size="1x" />}
@@ -110,8 +107,9 @@ const NewOrder: NextPage = () => {
                   Adicionar produto
                 </Button>
               }
+              sx={{ paddingBottom: '0px' }}
             />
-            <CardContent>
+            <CardContent sx={{ padding: '3px' }}>
               <Items />
             </CardContent>
           </Card>

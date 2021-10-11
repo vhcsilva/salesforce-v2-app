@@ -142,3 +142,29 @@ export const user = {
     }
   ]
 } as User
+
+export const products = [
+  {
+    company: '01',
+    branch: '00',
+    code: '008765',
+    description: 'MASCARA DESCARTÁVEL DESCARPACK',
+    um: 'UN',
+    ean: '1234567891234',
+    activePrinciple: undefined,
+    group: '123',
+    category: '123',
+    subcategory: '123',
+    model: 'DESCARPACK',
+    provider: 'DESCARPACK',
+    multiple: 1,
+    taxes: 0,
+    promotional: 'N',
+    balance: 200,
+    price1: 15.6,
+    price2: undefined,
+    price3: undefined,
+    price4: undefined,
+    price5: undefined
+  }
+]

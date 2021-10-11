@@ -27,3 +27,27 @@ export type User = {
   parameters: Parameters
   clients: Client[]
 }
+
+export type Products = {
+  company: string
+  branch: string
+  code: string
+  description: string
+  um: string
+  ean: string
+  activePrinciple: string | undefined
+  group: string
+  category: string
+  subcategory: string
+  model: string
+  provider: string
+  multiple: number
+  taxes: number | undefined
+  promotional: string
+  balance: number
+  price1: number
+  price2: number | undefined
+  price3: number | undefined
+  price4: number | undefined
+  price5: number | undefined
+}

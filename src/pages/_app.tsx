@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import GlobalStyles from 'styles/global'
 import '../fontawesome'
-import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
